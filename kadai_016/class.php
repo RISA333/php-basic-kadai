@@ -8,6 +8,7 @@ class Food {
     }
 
     function show_price(){ 
+        echo $this->price;
     }
 }
     $potato = new Food("potato", 250);
@@ -24,6 +25,7 @@ class Animal {
         $this->weight = $weight;
     }
     function show_height(){
+        echo $this->height;
     }
 }
     $dog = new Animal("dog", 60, 5000);
